@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="WithNoPackage(failed)">
+    <classes>
+      <class name="com.hrms.testScript.TC001">
+        <methods>
+          <include name="tc001"/>
+        </methods>
+      </class> <!-- com.hrms.testScript.TC001 -->
+      <class name="com.hrms.testScript.TC002">
+        <methods>
+          <include name="tc002"/>
+        </methods>
+      </class> <!-- com.hrms.testScript.TC002 -->
+    </classes>
+  </test> <!-- WithNoPackage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
